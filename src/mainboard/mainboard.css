@@ -1,0 +1,11 @@
+.placeHoriz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card-img-top{
+    height: 250px;
+}
+.placeHoriz h3, .placeHoriz p {
+    color: white;
+}

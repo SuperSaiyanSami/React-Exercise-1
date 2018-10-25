@@ -3,6 +3,7 @@ import './header.css';
 
 //Components
 import HeaderCard from '../headcard/headcard';
+import MainBoard from '../mainboard/mainboard';
 
 class Header extends Component{
     render(){
@@ -21,10 +22,10 @@ class Header extends Component{
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-xs-12">
-                        <HeaderCard />
+                        <MainBoard />
                     </div>
                     <div className="col-sm-12 col-xs-12">
-                        <HeaderCard />
+                        <MainBoard />
                     </div>
                 </div>
             </div> 
