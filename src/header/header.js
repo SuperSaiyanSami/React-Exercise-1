@@ -11,21 +11,21 @@ class Header extends Component{
             <div className="col-sm-8">
                 <div className="row">
                     <div className="col-sm-4 col-xs-12">
-                        <HeaderCard />
+                        <HeaderCard value="20" text="New followers added this month"/>
                     </div>
                     <div className="col-sm-4 col-xs-12">
-                        <HeaderCard />
+                        <HeaderCard value="$ 1250" text="Average Monthly Income " />
                     </div>
                     <div className="col-sm-4 col-xs-12">
-                        <HeaderCard />
+                        <HeaderCard value="$ 13865" text="Yearly Income Goal" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-xs-12">
-                        <MainBoard />
+                        <MainBoard imageUrl="/images/blue.jpg"/>
                     </div>
                     <div className="col-sm-12 col-xs-12">
-                        <MainBoard />
+                        <MainBoard imageUrl="/images/pink.jpg" />
                     </div>
                 </div>
             </div> 

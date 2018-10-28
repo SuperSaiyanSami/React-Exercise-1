@@ -1,0 +1,15 @@
+.WeatherCard{
+    min-height: 150px;
+    margin: 20px 0;
+}
+.centerVH{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.WeatherCard-Body{
+    color: white;
+}
+.WeatherCard-Body p, .WeatherCard-Body h2 {
+    margin: 0;
+}

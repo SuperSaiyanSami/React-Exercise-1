@@ -1,0 +1,19 @@
+.SideCard{
+    min-height: 150px;
+    text-align: left;
+    margin: 20px 0; 
+    position: relative;
+}
+
+.listText{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+.listValue{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}

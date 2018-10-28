@@ -1,0 +1,19 @@
+.HeadCard{
+    min-height: 150px;
+    text-align: left;
+    margin: 20px 0;
+}
+.centerVH{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HeadCard-header-text{
+    font-size: 22px;
+    font-weight: bold;
+}
+.HeadCard-Helper-Text{
+    font-size: 16px;
+    color: dimgrey;
+}
+

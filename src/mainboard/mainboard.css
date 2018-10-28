@@ -1,11 +1,22 @@
+.MainBoard{
+    margin: 0 0 20px 0;
+}
 .placeHoriz{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    min-height: 90px;
 }
 .card-img-top{
-    height: 250px;
+    height: 200px;
 }
-.placeHoriz h3, .placeHoriz p {
+.placeHoriz h4{
     color: white;
+    margin: 0;
+}
+
+.placeHoriz p{
+    font-size: 14px;
+    color: darkgray;
+    margin: 0;
 }
